@@ -17,7 +17,7 @@ ContenedorCardDetail.innerHTML = `
          <h2 class="card-title">${beer.name}</h2>
          <p class="card-text">${beer.description}</p>
          <p>Price: $${beer.price}</p>
-        <a href="./details.html?id=${beer.id}" class="btn btn-primary">+ Info</a>
+        <a href="./details.html?id=${beer.id}" class="btn btn-primary">+ Info </a>
         </div>
       </div> `   
 

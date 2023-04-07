@@ -19,7 +19,7 @@ function superFiltro() {
 
 const divContenedorCard = document.getElementById('createCard')
 
-
+ 
 function crearCards(events) {
     if (events.length == 0) {
         divContenedorCard.innerHTML = `<h2>No se escontraron coincidencias!</h2>`
